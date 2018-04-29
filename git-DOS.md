@@ -15,7 +15,12 @@
 	git add file.txt  \\将文件file.txt添加到暂存区
 	git commit -m "XXXX"  \\将文件从暂存区移至本地版本库，XXXX为说明性文字
 	git add -A  \\将所有文件添加到暂存区
-	git rm 移除
+
+###	git 移除命令
+	1: git rm test.txt  \\删除文件
+	2: git rm -r test    \\删除文件夹
+	3: git commit -m "Delete some files."
+	4: git push origin xxx
 ### git 远程推送
 	git remote add origin  \\web地址 建立网络连接
 	git remote -v  \\查看push和pull（fetch）所对应的网络地址
