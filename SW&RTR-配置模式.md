@@ -39,3 +39,4 @@
      Router(config)# fa0/0  //进入接口配置模式
      Router(config-if)# end //接口配置模式
      Router#         //退出到特权模式
+     
